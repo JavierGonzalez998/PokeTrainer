@@ -1,0 +1,56 @@
+﻿@import url("./8-bit_wonder-webfont.woff");
+@import url("./8-bit_wonder-webfont.woff2");
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black !important
+}
+.trainer {
+    max-width: 100px;
+    height: auto;
+}
+@font-face {
+    font-family: '8bit_wondernominal';
+    src: url('8-bit_wonder-webfont.woff2') format('woff2'), url('8-bit_wonder-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: "8bit_wondernominal", sans-seriff !important;
+}
+#cover {
+    filter: brightness(0.4);
+    z-index: -100;
+}
+.dsb {
+    display: none;
+}
+enb {
+    display: inline-block;
+}
+.logo {
+    max-width:30px;
+    max-height:30px;
+}
+.header-title {
+    animation: fadeInUp;
+    animation-duration: 2s;
+}
+#Menu1 {
+    height: 100%;
+    --bs-scroll-height: 100px;
+    float: none !important;
+}
+#Menu1 > ul > li {
+    margin-left: 10%;
+    float: none !important;
+}
+#navbarScroll > a {
+    display: none !important;
+}
+#about {
+    background-color: white;
+}
+.bkg {
+    background-color: white;
+}
